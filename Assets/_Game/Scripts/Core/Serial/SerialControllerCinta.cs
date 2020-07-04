@@ -111,8 +111,8 @@ namespace Ibit.Core.Serial
             var ports = GetPortNames();
 
 #if !UNITY_EDITOR
-            if (ports.Length < 1)
-                Ibit.Core.Util.SysMessage.Warning("CINTA EXTENSORA não encontrada!");
+            // if (ports.Length < 1)
+            //     Ibit.Core.Util.SysMessage.Warning("CINTA EXTENSORA não encontrada!");
 #endif
 
             foreach (var port in ports)

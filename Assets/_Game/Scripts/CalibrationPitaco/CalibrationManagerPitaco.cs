@@ -248,7 +248,7 @@ namespace Ibit.Calibration
                                     _serialController.StartSampling();
 
                                     _exerciseCountText.text = $"Exercício: {_currentExerciseCount + 1}/3";
-                                    yield return new WaitForSeconds(1);
+                                    yield return new WaitForSeconds(2);
 
                                     AirFlowEnable(false);
                                     _dialogText.text = "(MANTENHA o ponteiro GIRANDO, PUXANDO O AR!)";
@@ -404,7 +404,7 @@ namespace Ibit.Calibration
                                     _serialController.StartSampling();
 
                                     _exerciseCountText.text = $"Exercício: {_currentExerciseCount + 1}/3";
-                                    yield return new WaitForSeconds(1);
+                                    yield return new WaitForSeconds(2);
 
                                     AirFlowEnable(false);
                                     _dialogText.text = "(MANTENHA o ponteiro GIRANDO, ASSOPRANDO!)";

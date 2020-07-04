@@ -9,6 +9,10 @@ TagManager:
   - WaterObstacle
   - WaterTarget
   - RelaxObject
+  - txPacient
+  - txPitacoInfos
+  - txManoInfos
+  - txCintaInfos
   layers:
   - Default
   - TransparentFX
